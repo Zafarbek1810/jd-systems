@@ -16,6 +16,10 @@ const BannerWrapper=styled.div`
         font-size: 50px;
         line-height: 56px;
         text-align: start;
+        
+        span{
+          color: #9E00FF;
+        }
       }
       
       button{

@@ -18,7 +18,7 @@ const HomePageWrapper=styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 744px;
+    left: 30%;
     top: 1194px;
     z-index: -22;
     background: rgba(0, 255, 87, 0.3);
@@ -30,7 +30,7 @@ const HomePageWrapper=styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    left: -351px;
+    left: 30%;
     top: 2437px;
     z-index: -22;
     background: rgba(255, 0, 0, 0.3);
