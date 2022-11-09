@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from "../Header";
-import Footer from "../Footer";
 import Banner from "./Sections/Banner";
 import {HomePageWrapper} from "./HomePage.style";
 import CountUp from "./Sections/Countup";
@@ -22,7 +21,6 @@ const HomePage = () => {
       <WhatWeDo/>
       <OurWorks/>
       <Contacts/>
-      <Footer/>
     </HomePageWrapper>
   );
 };

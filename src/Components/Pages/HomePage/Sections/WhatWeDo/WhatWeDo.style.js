@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const WhatWeDoWrapper=styled.div`
+  padding: 50px 0;
   h3{
     font-family: 'Share Tech Mono';
     font-style: normal;

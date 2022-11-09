@@ -31,7 +31,7 @@ const cardData=[
 
 const WhatWeDo = () => {
   return (
-    <WhatWeDoWrapper>
+    <WhatWeDoWrapper id="whatwedo">
       <Container>
         <h3>&lt;/What we do&gt;</h3>
         <div className="cards">

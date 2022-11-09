@@ -14,12 +14,12 @@ const RightNav = ({ open }) => {
           </MyLink>
         </li>
         <li>
-          <MyLink className="link"  to="/" >
+          <MyLink className="link"  to="/#whatwedo" >
             What we do
           </MyLink>
         </li>
         <li>
-          <MyLink className="link"  to="/" >
+          <MyLink className="link"  to="/#ourworks" >
             Our works
           </MyLink>
         </li>

@@ -4,34 +4,40 @@ const HomePageWrapper=styled.div`
   .effect1 {
     box-sizing: border-box;
     position: absolute;
-    width: 70%;
-    height: 60%;
+    width: 90%;
+    height: 100%;
     left: -30%;
     top: -30%;
     background: rgba(173, 0, 255, 0.3);
-    border: 1px solid #000000;
     filter: blur(900px);
+    z-index: -22;
   }
-
-  .effect2 {
+  
+  .effect2{
+    box-sizing: border-box;
     position: absolute;
-    width: 70%;
-    height: 60%;
-    left: 30%;
-    top: 80%;
+    width: 100%;
+    height: 100%;
+    left: 744px;
+    top: 1194px;
+    z-index: -22;
     background: rgba(0, 255, 87, 0.3);
-    filter: blur(900px);
+    filter: blur(450px);
+  }
+  
+  .effect3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -351px;
+    top: 2437px;
+    z-index: -22;
+    background: rgba(255, 0, 0, 0.3);
+    filter: blur(450px);
   }
 
-  .effect3 {
-    position: absolute;
-    width: 70%;
-    height: 60%;
-    left: -30%;
-    top: 99%;
-    background: rgba(255, 0, 0, 0.3);
-    filter: blur(900px);
-  }
+  
 `
 
 export{ HomePageWrapper }

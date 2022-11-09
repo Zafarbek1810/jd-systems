@@ -10,7 +10,7 @@ import PlayIcon from "../../../../Common/Svgs/PlayIcon";
 
 const OurWorks = () => {
   return (
-    <OurWorksWrapper>
+    <OurWorksWrapper id="ourworks">
       <Container>
         <h3>&lt;/Our works&gt;</h3>
         <Swiper
