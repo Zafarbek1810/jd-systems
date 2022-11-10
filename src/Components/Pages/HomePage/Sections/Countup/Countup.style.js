@@ -69,6 +69,21 @@ const CountupWrapper=styled.div`
         width: 80%;
         padding: 10px;
         margin-bottom: 40px;
+        
+        .icon{
+          transform: scale(0.70);
+        }
+        
+        .text{
+          .top{
+            font-size: 18px;
+          }
+          .bottom{
+            span{
+              font-size: 40px;
+            }
+          }
+        }
       }
     }
   }
