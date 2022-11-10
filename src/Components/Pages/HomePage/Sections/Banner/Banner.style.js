@@ -18,9 +18,8 @@ const BannerWrapper = styled.div`
         font-size: 50px;
         text-align: start;
 
-        span {
+        div {
           display: flex;
-          align-items: center;
           height: 65px;
           color: #9E00FF;
         }
