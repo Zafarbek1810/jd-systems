@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const CountupWrapper=styled.div`
-  
   padding: 100px 0;
   .counters{
     display: flex;
@@ -44,6 +43,32 @@ const CountupWrapper=styled.div`
             color: #FFFFFF;
           }
         }
+      }
+    }
+  }
+  
+  @media(max-width: 960px){
+    .counters{
+      flex-direction: column;
+      align-items: center;
+      
+      .counter{
+        width: 80%;
+        padding: 50px 30px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+  
+  @media(max-width: 500px){
+    .counters{
+      flex-direction: column;
+      align-items: center;
+      
+      .counter{
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 40px;
       }
     }
   }

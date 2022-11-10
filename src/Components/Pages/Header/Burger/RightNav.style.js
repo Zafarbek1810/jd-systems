@@ -52,12 +52,14 @@ const RightNavWrapper = styled.div`
     justify-content: start;
 
     ul {
+      margin-top: 30px;
       display: flex;
       flex-direction: column;
       text-align: end;
     }
 
     li {
+      margin-bottom: 30px;
       color: #000 !important;
 
     }

@@ -215,6 +215,45 @@ const ContactsWrapper=styled.div`
       }
     }
   }
+  
+  @media(max-width: 850px){
+    .line{
+      display: none;
+    }
+    
+    .wrapper{
+      display: flex;
+      flex-direction: column;
+      
+      .left{
+        width: 100%;
+      }
+      
+      .right{
+        width: 100%;
+        
+        .text{
+          width: 80%;
+          margin: auto;
+        }
+        
+        .map{
+          width: 80%;
+          margin: auto;
+          
+          iframe{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  
+  @media(max-width: 500px){
+    h3{
+      font-size: 35px;
+    }
+  }
 
 
 `

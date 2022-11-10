@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-const OurWorksWrapper=styled.div`
+const OurWorksWrapper = styled.div`
   padding: 50px 0;
-  h3{
+
+  h3 {
     font-family: 'Share Tech Mono';
     font-style: normal;
     font-weight: 400;
@@ -12,7 +13,7 @@ const OurWorksWrapper=styled.div`
     text-align: center;
   }
 
-  .card{
+  .card {
     z-index: 2;
     user-select: none;
     position: relative;
@@ -30,9 +31,9 @@ const OurWorksWrapper=styled.div`
       position: relative;
       z-index: 100;
     }
-    
-    
-    .image{
+
+
+    .image {
       position: relative;
       height: 340px;
       width: 100%;
@@ -96,6 +97,12 @@ const OurWorksWrapper=styled.div`
     }
 
   }
+
+  @media (max-width: 700px) {
+    h3 {
+      font-size: 35px;
+    }
+  }
 `
 
-export{OurWorksWrapper}
+export {OurWorksWrapper}

@@ -1,30 +1,32 @@
 import styled from "styled-components";
 
-const BannerWrapper=styled.div`
+const BannerWrapper = styled.div`
   text-align: center;
-  .wrapper{
+
+  .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    .left{
+
+    .left {
       width: 40%;
-      h3{
+
+      h3 {
         font-family: 'Share Tech Mono';
         font-style: normal;
         font-weight: 400;
         font-size: 50px;
         text-align: start;
-        
-        span{
+
+        span {
           display: flex;
           align-items: center;
           height: 65px;
           color: #9E00FF;
         }
       }
-      
-      button{
+
+      button {
         margin-left: 50%;
         margin-top: 30px;
         width: 150px;
@@ -40,13 +42,33 @@ const BannerWrapper=styled.div`
         color: #FFFFFF;
       }
     }
-    
-    .right{
-      
+
+    .right {
+
     }
-    
-    
+  }
+
+  @media (max-width: 850px) {
+    .wrapper{
+      flex-direction: column;
+      
+      .left{
+        width: 100%;
+        
+        button{
+          margin-top: 0;
+        }
+      }
+      
+      .right{
+        width: 100%;
+        
+        img{
+          width: 100%;
+        }
+      }
+    }
   }
 `
 
-export { BannerWrapper }
+export {BannerWrapper}

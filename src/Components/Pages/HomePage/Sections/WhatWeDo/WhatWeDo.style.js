@@ -58,6 +58,33 @@ const WhatWeDoWrapper=styled.div`
       }
     }
   }
+  
+  @media(max-width: 900px){
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      .card{
+        width: 40%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  @media(max-width: 500px){
+    h3{
+      font-size: 35px;
+    }
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      .card{
+        width: 90%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  
+  
 `
 
 export{ WhatWeDoWrapper}
