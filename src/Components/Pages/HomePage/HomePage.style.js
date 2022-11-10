@@ -9,7 +9,7 @@ const HomePageWrapper=styled.div`
     left: -30%;
     top: -30%;
     background: rgba(173, 0, 255, 0.3);
-    filter: blur(900px);
+    filter: blur(500px);
     z-index: -22;
   }
   
@@ -18,7 +18,7 @@ const HomePageWrapper=styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 30%;
+    left: 0%;
     top: 1194px;
     z-index: -22;
     background: rgba(0, 255, 87, 0.3);
@@ -30,7 +30,7 @@ const HomePageWrapper=styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 30%;
+    left: -30%;
     top: 2437px;
     z-index: -22;
     background: rgba(255, 0, 0, 0.3);

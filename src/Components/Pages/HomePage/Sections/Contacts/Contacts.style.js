@@ -146,7 +146,7 @@ const ContactsWrapper=styled.div`
     }
     
     .btn{
-      width: 70%;
+      width: 80%;
       margin: auto;
       text-align: end;
     }

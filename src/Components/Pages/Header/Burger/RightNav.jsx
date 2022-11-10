@@ -24,7 +24,7 @@ const RightNav = ({ open }) => {
           </MyLink>
         </li>
         <li>
-          <MyLink className="link"  to="/" >
+          <MyLink className="link"  to="/#contacts" >
             Contacts
           </MyLink>
         </li>

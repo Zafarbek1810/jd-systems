@@ -14,10 +14,12 @@ const BannerWrapper=styled.div`
         font-style: normal;
         font-weight: 400;
         font-size: 50px;
-        line-height: 56px;
         text-align: start;
         
         span{
+          display: flex;
+          align-items: center;
+          height: 65px;
           color: #9E00FF;
         }
       }

@@ -8,7 +8,7 @@ import LocationSvg from "../../../../Common/Svgs/LocationSvg";
 
 const Contacts = () => {
   return (
-    <ContactsWrapper>
+    <ContactsWrapper id="contacts">
       <Container>
         <div className="forma">
           <h3>&lt;/Contacts&gt;</h3>

@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 const CountUpSection = () => {
   return (
-    <CountupWrapper>
+    <CountupWrapper id="countup">
       <Container>
         <div className="counters">
           <div className="counter">
@@ -27,7 +27,7 @@ const CountUpSection = () => {
               <img src="images/icon2.png" alt=""/>
             </div>
             <div className="text">
-              <div className="top"><p>Clients</p></div>
+              <div className="top"><p>Works done</p></div>
               <div className="bottom">
                 <span id="first">
                   <CountUp end={100} />+
@@ -41,7 +41,7 @@ const CountUpSection = () => {
               <img src="images/icon3.png" alt=""/>
             </div>
             <div className="text">
-              <div className="top"><p>Clients</p></div>
+              <div className="top"><p>Experience</p></div>
               <div className="bottom">
                 <span id="first">
                   <CountUp end={5} />years

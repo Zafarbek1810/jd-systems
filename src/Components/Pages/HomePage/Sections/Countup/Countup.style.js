@@ -22,23 +22,27 @@ const CountupWrapper=styled.div`
       .icon{
         margin-right: 20px;
       }
-      .top{
-        font-family: 'Ubuntu Mono';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 23px;
-        line-height: 30px;
-        color: #FFFFFF;
-      }
-      
-      .bottom{
-        span{
+      .text{
+        display: flex;
+        flex-direction: column;
+        .top{
           font-family: 'Ubuntu Mono';
           font-style: normal;
-          font-weight: 700;
-          font-size: 70px;
-          line-height: 70px;
+          font-weight: 400;
+          font-size: 23px;
+          line-height: 30px;
           color: #FFFFFF;
+        }
+
+        .bottom{
+          span{
+            font-family: 'Ubuntu Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 70px;
+            color: #FFFFFF;
+          }
         }
       }
     }
